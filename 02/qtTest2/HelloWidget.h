@@ -8,7 +8,7 @@ class HelloWidgt : public QWidget
 {
     Q_OBJECT
 public:
-    explicit HelloWidgt(QWidget* parent = 0);
+    explicit HelloWidgt(QWidget* parent = nullptr);
     ~HelloWidgt();
     //label
     QLabel* m_labelInfo;

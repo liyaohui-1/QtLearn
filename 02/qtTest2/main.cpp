@@ -238,8 +238,8 @@ int main(int argc, char *argv[])
 //    MainWindow w;
 //    w.show();
 
-//    HelloWidgt widgt;
-//    widgt.show();
+    HelloWidgt widgt;
+    widgt.show();
 
 //    QString tmpstr = QObject::tr("123456你好");
 //    QTextBrowser tb;
@@ -252,7 +252,7 @@ int main(int argc, char *argv[])
 //    Test_toValue();
 //    Test_operator();
 //    Test_substring();
-    Test_QTextStream();
+//    Test_QTextStream();
 
     return a.exec();
 }
